@@ -6,9 +6,9 @@ app = Flask(__name__)
 # My SQL Instance configurations 
 # Change the HOST IP and Password to match your instance configurations
 app.config['MYSQL_USER'] = 'root'
-app.config['MYSQL_PASSWORD'] = 'P@ssw0rd'
+app.config['MYSQL_PASSWORD'] = 'closer11'
 app.config['MYSQL_DB'] = 'studentbook'
-app.config['MYSQL_HOST'] = '35.195.195.114'
+app.config['MYSQL_HOST'] = '130.211.86.123'
 mysql.init_app(app)
 
 # The first route to access the webservice from http://external-ip:5000/ 
